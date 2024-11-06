@@ -5,9 +5,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DatabaseConnection {
-    private static final String URL = "jdbc:mysql://localhost:3306/quiz_multiplayer"; // Sostituisci con il tuo nome del database
-    private static final String USER = "root"; // Sostituisci con il tuo nome utente
-    private static final String PASSWORD = "admin"; // Sostituisci con la tua password
+	private static final String URL = "jdbc:mysql://localhost:3306/quiz_multiplayer";
+	private static final String USER = "root";
+	private static final String PASSWORD = "admin";
 
     // Metodo per ottenere la connessione
     public static Connection getConnection() throws SQLException {
